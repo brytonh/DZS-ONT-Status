@@ -1,7 +1,9 @@
 # DZS-ONT-Status
 I wrote this script to limit the number of back-office network ops tickets for something as trivial as troubleshooting light level, bridge/mac tables for connected devices on ONT ports, leased IP addresses or delegated IPv6 prefixes, etc. 
 
+---
 </br>
+
 **zhone-status-webapp** folder contains the files needed for running a basic web form to take in ONT MAC and spit out troubleshooting information. 
 
 **templates folder:** </br>
