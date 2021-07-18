@@ -42,7 +42,6 @@ for i in HOST:
 
 	#Sleep and run desired command
 	time.sleep(3)
-	#tn.write(b"onu status 1/1/1\r\n")
 	tn.write(b"gpononu find serno " + (dec_serno) + b"\r\n")
 	#Sleep and write exit to close Telnet
 
