@@ -15,6 +15,6 @@ results_template.html - the verbose output of ONT status / troubleshooting comma
 example-case.png - a successful find of an ONT, and the status output for this ONT that would be seen in the webpage after the POST call from web form
 error-case.png - an example of an ONT not being found on any OLT, you'd see this err message in the webpage after POST
 
-the zhone-status.py file can be run without the flask webapp, the OLT's searched are still indexed in the python list within the code 
+the zhone-status.py file can be run without the flask webapp, the OLT's searched are still indexed in the HOST list within the code 
 
 *FYI this script currently uses telnet to interact with the OLT devices for these calls* 
