@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Bryton Herdes, 7.18.2021
+
 import getpass
 import sys
 import telnetlib
