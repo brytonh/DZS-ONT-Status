@@ -22,6 +22,7 @@ def form_post():
 	text = request.form['text']
 	processed_text = text.upper()
 
+	# Replace the values within the HOST list with your IP addresses of the OLTs
 	HOST = ["100.64.1.1", "100.64.1.2" ]
 	user = b"admin"
 	password = b"zhone"
